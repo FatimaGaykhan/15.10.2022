@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    overflow: auto;
+    padding:20px 4rem ;
+    position: fixed;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    font-weight: 700;
+    float: left;
+    
+}
+.logo a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.navbar a{
+    color: rgba(255,255,255, 0.7);
+    font-size: 18px ;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.navbar{
+    float: right;
+    margin-top: 5px;
+}
+.slider{
+    text-align: center;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    padding: 11rem 0;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.slider h1{
+    font-size: 56px;
+    color: #fff;
+}
+.slider p{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+.slider a{
+    
+    background-color: #f4623a;
+    border-radius: 10rem;
+    font-size: 0.85rem;
+    color: #fff;
+    padding: 20px 36px;
+    font-weight: bold;
+}
+.slider hr{
+width: 5%;
+background-color: #f4623a;
+border: none;
+height: 3px;
+margin: 20px auto;
+}
+.started{
+    text-align: center;
+    background-color: #f4623a;
+    padding: 6rem 0;
+
+}
+.started h2{
+    font-size: 2rem;
+    color:#fff;
+}
+.started p{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+.started a{
+    
+    background-color: #fff;
+    border-radius: 10rem;
+    font-size: 0.85rem;
+    color: black;
+    padding: 20px 36px;
+    font-weight: bold;
+}
+.started hr{
+    width: 5%;
+    background-color: #fffa;
+    border: none;
+    height: 3px;
+    margin: 20px auto;
+    }
+
+ 
+
+    .gallery .box img{
+    vertical-align: bottom;  
+    width: 100%;
+    filter: grayscale(1);
+    transition: .5s;
+    
+ }
+ .gallery .box{
+    width: calc(100%/3);
+    float: left;
+
+ }
+ .gallery .box:hover img{
+    filter: grayscale(0) brightness(0.5);
+ }
+ .download{
+    width: 100%;
+    text-align: center;
+    background-color: #212529;
+    padding: 8rem 0;
+
+}
+.download h2{
+    margin-top: 30px;
+    font-size: 2rem;
+    color:#fff;
+    margin-bottom: 50px;
+    padding: 6rem 0;
+    
+}
+.download a{
+    
+    background-color: #fff;
+    border-radius: 10rem;
+    font-size: 0.85rem;
+    color: black;
+    padding: 15px 36px;
+    font-weight: bold;
+}
+.gallery{
+    overflow: auto;
+}
+.register {
+    text-align: center;
+}
+.register hr{
+    width: 5%;
+    background-color: #f4623a;
+    border: none;
+    height: 3px;
+    margin: 20px auto;
+}
+.register h2{
+    font-size: 2rem;
+    color:rgb(14, 13, 13);
+}
+.register p{
+    color: #6c757d;
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+.info input{
+    margin-bottom: 15px;
+    width: 25%;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    padding: 1.5%;
+}
+.box h2{
+    margin-top: 20px;
+}
+.info textarea{
+    border: 1px solid #ced4da ;
+    border-radius: 0.25rem;
+    margin-bottom: 15px;
+    width: 25%;
+    margin-bottom: 3rem;
+}
+.submita a{
+    background-color:#f4623a;
+    border-radius: 10rem;
+    font-size: 0.85rem;
+    color: #fff;
+    padding: 20px 170px;
+    font-weight: bold;
+    margin-top: 10rem;
+}
+.num h5{
+text-align: center;
+padding: 6rem;
+}
+.footer h5{
+text-align: center;
+padding: 3rem;
+background-color: #f8f9fa;
+}
+    
+
